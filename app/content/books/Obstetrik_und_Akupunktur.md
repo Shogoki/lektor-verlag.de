@@ -1,6 +1,5 @@
 ---
-date : "2012-04-06"
-image : "/myimage.jpg"
+image : "/images/Pelletier_0218_cover.png"
 title : "Obstrestrik und Akkupunktur"
 ---
 

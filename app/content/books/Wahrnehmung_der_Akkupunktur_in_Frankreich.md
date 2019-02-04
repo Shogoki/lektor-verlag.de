@@ -1,0 +1,9 @@
+---
+image : "/images/nguyen.jpg"
+title : "Dr. Nguyen: Die Wahrnehmung der Akupunktur in Frankreich"
+isbn: 9783941866034
+price: 22,95
+shopLink: "http://www.lectionis-buchhandel.de/Frisch-eingetroffen/Dr-Nguyen-Die-Wahrnehmung-der-Akupunktur-in-Frankreich::4796.html"
+---
+
+Ab 1930 beginnen französische Ärzte die Akupunktur zu praktizieren und in Pariser Krankenhäusern starten nun speziell dafür eingerichtete Sprechstunden. George Soulié de Morant (1878-1955), Sinologe und französischer Konsul in China, steht für dieses einmalige Phänomen in der westlichen Vorkriegswelt Pate. Während einer Choleraepidemie 1902 kann er sich von der bemerkenswerten Effizienz der Akupunktur überzeugen. Er entwickelt ein außerordentliches Interesse dafür und wirkt im Umfeld chinesischer Therapeuten. Nun wird er selbst zum "Arzt für chinesische Medizin" und seine Fähigkeiten werden sogar vom Vizekönig der Yunnan Provinz anerkannt, der ihm die sehr hohe Auszeichung der "Geschliffenen Korallenkugel" verabreicht. Nach der Rückkehr in Frankreich unterrichtet er Ärzte und seine Veröffentlichungen gelten für lange Zeit als das Maß aller Dinge in diesem Bereich. Als absoluter Höhepunkt seiner Karriere wird er 1950 zum "alleinigen Kandidat" Frankreichs für den Nobel-Preis nominiert. Diese "offizielle" Version seiner Laufbahn enthält jedoch zahrleiche Ungereimtheiten. Was nun, wenn die wahre Geschichte doch eine völlig andere wäre? Dieses Buch untersucht die Einführung und Wahrnehmung der Akupunktur in Frankreich. Warum und wieso konnte die Akupunktur in den dreißiger Jahren in Frankreich eingeführt werden und ausgerechnet nur hier?
