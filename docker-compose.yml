@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+    webapp:
+       build: ./
+       image: shogoki/lektor-verlag-hugo
+       
+       restart: always
+       environment:
+              - VIRTUAL_HOST=www.lektor-verlag.de,lektor-verlag.de,lektor.srv2.evolution-web.de
+              - LETSENCRYPT_HOST=www.lektor-verlag.de,lektor-verlag.de
+       networks:
+              default:
+                 aliases:
+                    - web
+            
+              web:
+                 aliases:
+                    - lektor-verlag
+  
+networks:
+        web:
+          external:
+             name : webproxy
+
+       
