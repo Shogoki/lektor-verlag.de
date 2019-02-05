@@ -6,11 +6,13 @@
 
                     </div>
                     <div class="span4">
-                        <a href="https://www.lektor-verlag.de/static/impressum">Impressum</a>
+                            {{ range where .Pages "Section" "pages" }}
+                        <a href="{{ .Permalink }}">{{ .Title}}</a>
                         <br/>
-                        <a href="https://www.lektor-verlag.de/static/Privacy">Privatsphäre und Datenschutz</a>
+                        <!--<a href="https://www.lektor-verlag.de/static/Privacy">Privatsphäre und Datenschutz</a>
                         </br>
-                        <a href="https://www.lektor-verlag.de/static/agb">AGB</a>
+                        <a href="pages/agb">AGB</a> -->
+                        {{end}}
                     </div>
                     <div class="span4">
                         <p>&copy; Lektor Verlag Hainburg  2013</p>
@@ -27,5 +29,7 @@
         $('.carousel').carousel()
     });
 </script>
+
+
 </body>
 </html>
