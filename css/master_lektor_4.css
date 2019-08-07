@@ -1,0 +1,7 @@
+.navbar-inner {
+    min-height: 50px;
+}
+
+.navbar .brand {
+    padding: 0px 20px 0px;
+}
