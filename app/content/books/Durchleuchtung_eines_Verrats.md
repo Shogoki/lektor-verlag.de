@@ -1,5 +1,5 @@
 ---
-image : "/images/alexandru.jpg"
+image : "/images/alexandru.png"
 title : "Durchleuchtung eines Verrats. Der Fall des Oberst Alexandru D. Sturdza"
 
 ---
