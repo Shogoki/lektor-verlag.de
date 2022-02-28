@@ -1,54 +1,54 @@
 {{ partial "header.html" . }}
 
 <div class="row-fluid">
-    <div class="span12">
-        <div class="row-fluid">
-            <div class="row-fluid">
-                <div class="span12 well well-small">
-                    <a class="btn btn-small" href="javascript:history.back()">Zurück</a>
+  <div class="span12">
+    <div class="row-fluid">
+      <div class="row-fluid">
+        <div class="span12 well well-small">
+          <a class="btn btn-small" href="javascript:history.back()">Zurück</a>
+        </div>
+      </div>
+      <div class="row-fluid">
+        <div class="span12 well">
+          <div class="row-fluid">
+            <div class="span12">
+              <div class="row-fluid">
+                {{if isset .Params "image" }}
+                <div class="span6">
+                  <a href="#" class="thumbnail">
+                    {{ with .Resources.GetMatch "cover.*" }} {{ $image := .Fit
+                    "300x200" }}
+                    <img
+                      src="data:{{ $image.MediaType }};base64,{{ $image.Content | base64Encode }}"
+                    />
+                    {{ end }}
+                  </a>
                 </div>
+                {{end}}
+                <div class="span6">
+                  {{if isset .Params "isbn" }}
+                  <p>ISBN: {{ .Params.isbn }}</p>
+                  {{end}} {{if isset .Params "price" }}
+                  <p>Preis: {{ .Params.price }} €</p>
+                  {{end}} {{if isset .Params "shopLink" }}
+                  <p>
+                    <a
+                      class="btn btn-small btn-primary"
+                      href="{{ .Params.shopLink }}"
+                      >Im Shop kaufen</a
+                    >
+                  </p>
+                  {{end}}
+                </div>
+              </div>
             </div>
-            <div class="row-fluid">
-                <div class="span12 well">
-                    <div class="row-fluid">
-                        <div class="span12">
-                            <div class="row-fluid">
-                                    {{if isset .Params "image" }}
-                                    <div class="span6">
-                                    <a href="#" class="thumbnail">
-                                        <img src="{{ .Params.image}}">
-                                    </a>
-                                </div>
-                                {{end}}
-                                <div class="span6">
-                                        {{if isset .Params "isbn" }}
-                                        <p>
-                                            ISBN: {{ .Params.isbn }}
-                                        </p>
-                                        {{end}}
-                                        {{if isset .Params "price" }}
-                                        <p>
-                                            Preis: {{ .Params.price }} €
-                                        </p>
-                                        {{end}}
-                                        
-                                        {{if isset .Params "shopLink" }}
-                                        <p>
-                                            <a class="btn btn-small btn-primary" href="{{ .Params.shopLink }}">Im Shop kaufen</a>
-                                        </p>
-                                        {{end}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row-fluid">
-                        <div class="span12">
-                            {{ .Content}}
-                        </div>
-                    </div>
-                </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {{ partial "footer.html" . }}
+          </div>
+          <div class="row-fluid">
+            <div class="span12">{{ .Content}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ partial "footer.html" . }}
