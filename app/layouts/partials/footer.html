@@ -7,11 +7,13 @@
                     </div>
                     <div class="span4">
                             {{ range where .Pages "Section" "pages" }}
+                            {{ range .Pages }}
                         <a href="{{ .Permalink }}">{{ .Title}}</a>
                         <br/>
                         <!--<a href="https://www.lektor-verlag.de/static/Privacy">Privatsphäre und Datenschutz</a>
                         </br>
                         <a href="pages/agb">AGB</a> -->
+                        {{end}}
                         {{end}}
                     </div>
                     <div class="span4">
