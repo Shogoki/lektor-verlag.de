@@ -6,7 +6,7 @@ title : "Impressum"
 
 lektor-verlag.de
 
-Geschäftsführer: Dr. medic. Viorel V. Bucur
+Geschäftsführer: Viorel V. Bucur
 
 Lektor e.K.
 
@@ -14,7 +14,10 @@ Lessingstraße 22
 
 63512 Hainburg
 
-Mail: service@lektor-verlag.de
+Mail: 
+
+ - [service@lectionis-buchhandel.de](mailto:service@lectionis-buchhandel.de)
+ - [vblues@aol.com](mailto:vblues@aol.com)
 
 Tel.: 0172-6963473 / 06182-4999 (auch Fax)
 
