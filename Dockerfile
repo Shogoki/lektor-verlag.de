@@ -15,5 +15,5 @@ RUN tar xzf /usr/local/hugo/${HUGO_BINARY}.tar.gz -C /usr/local/hugo/ \
 COPY ./app /app 
 RUN cd /app && hugo
 
-FROM nginx
+FROM nginx:1.21
 COPY --from=0  /app/public /usr/share/nginx/html
